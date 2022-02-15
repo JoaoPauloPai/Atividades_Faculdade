@@ -1,0 +1,26 @@
+QUESTÃO 1
+Olá Caro aluno, nossa atividade mapa, será a construção de um algoritmo em pseudocódigo.
+
+Atualmente temos diversas formas de vendas, aliadas aos seus respectivos sistemas. 
+Contudo, ainda, existem algumas empresas, geralmente as de pequeno porte que ainda
+ trabalham com vendas “fiado” para alguns clientes. Contudo, este procedimento acaba
+ por criar diversas complicações, que podem levar o empresário a falência. Bom, não 
+iremos analisar estes processos ok.
+
+Diante deste fato, imagine a mercearia da família do professor João Messias. Está empresa,
+ ainda não possui sistema de vendas, ou seja, anota todas as vendas no “caderninho”, tanto
+ venda efetuada, quanto venda “fiado”. Este é um problema sério que o João Messias enfrenta 
+toda vez que um cliente deseja pagar, ele deve somar todas as notinhas. João Messias, quer
+ informatizar o sistema da mercearia, e nesta versão, não terá mais as vendas “fiado”. 
+Contudo, necessita realizar um levantamento de vendas que foram efetuadas “fiado” para que
+ possa ser lançado no sistema quando receber as notinhas de seus clientes. 
+
+O módulo a ser implementado consiste em:
+
+1 - Uma rotina de cadastro do valor de cada notinha de cada cliente, e neste cadastro deve conter
+ além do valor de cada nota, o nome do cliente. Assuma que existe atualmente 20 clientes no 
+caderninho. Assuma também que, cada cliente tem 10 notinhas.
+2 - Uma rotina de impressão de todos os clientes com o seu valor total a pagar. E ao final 
+mostrar um somatório total.
+3 - Uma rotina que imprima na tela os valores e o somatório de um cliente em específico.
+4 - Criar um menu simples com as 3 opções e uma opção para sair.
