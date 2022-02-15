@@ -1,0 +1,35 @@
+QUESTÃO 1
+
+
+A feira da madruga do Brás acontece na cidade de São Paulo há anos, atraindo diversos clientes
+ das mais variadas regiões do pais. Um comerciante da feira, tem 8 (oito) barracas, ele quer
+ saber qual destas barracas têm o maior volume de vendas diário. Para isso, ele armazena as 
+quantidade de vendas em um caderno, porém ele soube por intermedio de um dos funcionários que 
+você é um estudante de Engenharia de Software e lhe pediu para automatizar o caderninho.
+
+De acordo com o que você já estudou de programação, preferiu utilizar a estrutura de dados de 
+um vetor para armazenar os dados de vendas diário. Após implementado o comerciante ficou 
+encantado com seu  trabalho, entretanto como modo de melhorar a visualização das informações 
+requisitou a você que ordenasse o vetor. Dentre as varias técnicas de ordenação, você escolheu
+ o método Mergesort.
+
+O método Mergesort de ordenação foi criado em 1945 pelo matemático húngaro John Von Newmann. Esta 
+técnica de ordenação utiliza um conceito conhecido por dividir para conquistar, que consiste em 
+dividir um problema complexo em dois problemas menores, e cada um desses sejam divididos 
+novamente em partes menores ainda, recursivamente, até que se encontre uma parte pequena e 
+simples suficiente para que seja resolvido.  
+
+OLIVEIRA, Pietro Martins de; Pereira, Rogério de Leon. Estrutura de Dados I.  Maringá-Pr.:
+ Unicesumar, 2019. 
+
+Com base no exposto, desenvolva um programa em linguagem C que cumpra os seguintes requisitos. 
+
+1. Criar um vetor com 8 posições, representando cada barraca. 
+
+2. Cada posição corresponde a um dígito do seu RA (quantidade de vendas diária da barraca). 
+
+3. Exibir o vetor preenchido. 
+
+4. Aplique o algoritmo de ordenação Mergesort. 
+
+5. Exiba a quantidade de vendas de cada barra de modo ordenado. 

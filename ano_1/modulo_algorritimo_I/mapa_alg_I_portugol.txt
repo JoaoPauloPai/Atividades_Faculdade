@@ -1,0 +1,76 @@
+       Algoritmo ContasReceber
+       //("RA-20012120-5") 
+       //Nome-João Paulo Gomes da Silva
+       //Curso-Baxarelado em Engenharia de Software  
+       Tipo
+	  Conta_receber = registro
+          codigo : inteiro
+	  nome : Vetor[1..30] de caracteres
+          conta : real
+          notas : real
+          totalCliente : real
+          somaTotal : real
+	  Fim_registro	  
+       Var
+          clientes : Vetor[1..20] de Conta_receber
+	  i,j : inteiro
+          totalCliente : real
+	  totalNotas : real
+	  num : inteiro
+          n : inteiro
+          soma : real
+   Inicio
+        Repita
+	     Escreva("Selecione a opção : ")
+	     Escreva("Item - 1 - Cadastro de Clientes")
+	     Escreva("Item - 2 - Imprimir todos os clintes em atraso")
+	     Escreva("Item - 3 - Imprimir clinte e valor em atraso")
+             Escreva("Item - 4 - Sair do Sistema")
+	     Leia(menu)
+        Caso(menu)
+	Seja(1) faça
+	     Para i de 1 até 20 passo 1 faça
+                   totalcliente <- 0
+                   clientes[i].codigo <- i
+	           escreva("Digite o nome do Cliente:")
+		   leia(clientes[i].nome)
+		   Para j de 1 até 10 passo 1 faça
+		         escreva("Digite o valor da",j," nota :")
+		         leia(clientes[i].conta[j])
+                         totalCliente <- totalCliente + clientes[i].conta 
+		   Fim_para
+                   clientes[i].totalCliente <- totalCliente 
+                   soma <- soma + clientes[i].totalCliente       
+            Fim_para
+            clientes[i].somaTotal  <- soma			  
+       Fim_caso   
+       Seja(2) faça
+	     Para i de 1 até 20 passo 1 faça
+                   Escreva("Código : ",clientes[i].codigo)
+	           Escreva("Cliente nome : ", clientes[i].nome)
+	           Escreva("Total de notas em atraso :" , clientes[i].totalCliente)
+             Fim_para
+	     Escreva("Total a Receber de todos os Clientes R$ :",clientes[i].somaTotal)
+       Fim_caso
+       Seja(3) faça
+             Escreva("Para pesquisar digite o código do Cliente :")
+             Leia(n)
+     	     Se(n <= 20) faça
+                 i <- n
+                 Escreva("Cliente codigo : ", clientes[i].codigo)
+                 Escreva("Cliente nome : ", clientes[i].nome)
+                 Para j de 1 até 10 passo 1 faça
+                       Escreva("Nota ", j, "valor R$ :",clientes[i].conta)
+                 Fim_para
+                 Escreva("Valor total de Notas em atraso R$: ",clientes[i].totalCliente)
+            fim_se
+            Se(n > 20) faça
+               Escreva("Clinte não cadastrado. Informe um código válido ")
+            Fim_se
+      Fim_caso
+      Senão 
+	   Escreva("Opção Inválida!")
+     Fim_caso
+     Até_que (menu = 4) 
+           Escreva("Saindo do sistema!")		
+   Fim	
