@@ -1,5 +1,9 @@
-# Projetos Atividades Faculdade 
-# UniCesumar
-# Ano 
-2020 | 2021 | 2022
+## Projetos Atividades Faculdade 
+### UniCesumar
+### 2020 | 2021 | 2022
+
+O contúdo do Projeto Atividades_Faculdade, contém os módulos referente a programação, são na grande maioria atividades
+e tem um módulo 'Atividades_complementares', onde criei um código único com as principais atividades de todos os módulos
+gerando mais de 1400 linhas e rodando perfeito.
+
 
