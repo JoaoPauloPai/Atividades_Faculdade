@@ -4,6 +4,6 @@
 
 O contúdo do Projeto Atividades_Faculdade, contém os módulos referente a programação, são na grande maioria atividades
 e tem um módulo 'Atividades_complementares', onde criei um código único com as principais atividades de todos os módulos
-gerando mais de 1400 linhas e rodando perfeito.
+gerando mais de 1400 linhas de código em 'C' e rodando perfeito.
 
 
