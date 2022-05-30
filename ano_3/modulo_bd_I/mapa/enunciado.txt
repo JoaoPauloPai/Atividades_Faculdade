@@ -1,0 +1,40 @@
+QUESTÃO 1
+Caro estudante,
+Temos por certo que os desafios sempre contribuem na aquisição de
+ conhecimentos e competências desejadas. Sendo assim, faz-se necessário
+ relacionar o que se aprende com situações reais que podem ser encontradas
+ no cotidiano. Nesta atividade, você é convidado a realizar uma atividade 
+para verificar como a disciplina em questão pode contribuir na sua experiência 
+e formação profissional. Por este motivo, nesta atividade discursiva, você é 
+instigado a solucionar um problema voltado para sua área de formação.
+
+Atente-se para as informações e realize um ótimo trabalho!
+ 
+​Analisando o Modelo Relacional, as entidades não podem ficar isoladas, uma vez
+ que as informações estarão organizadas futuramente para o acesso de forma integrada.
+ Para essa organização sem perda de conteúdo, as entidades devem estar associadas,
+ ligadas entre si. No Modelo Entidade Relacionamento (MER), não é permitido ligar uma 
+entidade diretamente à outra. Quando há uma associação, ela é representada por um
+ relacionamento e o relacionamento é apresentado na forma de um losango e, para a 
+associação entre entidades, deve seguir a notação básica, que são entidades ligadas 
+ao relacionamento por linhas retas. 
+
+Utilize seu conhecimento sobre MER para representar o banco de dados de um hospital, 
+seguindo os requisitos abaixo:
+
+​a. O hospital possui várias alas.
+b. Cada ala possui uma enfermeira responsável.
+c. Cada enfermeira se reporta a uma enfermeira-chefe.
+d. Enfermeiras podem atender apenas uma ala.
+e. O hospital atende (credencia) os planos de saúde A, B e C.
+f. Para cada plano de saúde é necessário saber os médicos credenciados nele.
+g. Médico tem CRM e enfermeira tem CRE, que lhes são únicos.
+h. Todo atendimento de um médico a um paciente deve ser registrado com a data e hora em
+ que ocorreu.
+i. Um mesmo paciente pode ser atendido por mais de um médico.
+j. Hospital tem CNPJ.
+k. Ala do hospital tem um identificador.
+l. Plano de saúde tem um nome e telefone da operadora.
+m. Médicos têm nome e especialidade.
+n. Enfermeiras têm nome.
+o. O nome de um plano de saúde é único.
