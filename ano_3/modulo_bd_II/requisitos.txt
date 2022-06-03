@@ -1,0 +1,24 @@
+
+Requisitos:
+- Todos os campos são de preenchimento obrigatório.                 - ok
+- A criação de chaves primárias (primary keys) simples ou 
+compostas deve observar a especificação de cada tabela.             - ok
+- A criação de chaves estrangeiras (foreign keys) simples 
+ou compostas deve observar a especificação de cada tabela).         - ok
+- As chaves primárias e chaves estrangeiras deverão ser criadas
+juntamente com cada tabela que as utilizam. Por esse motivo, a
+ordem de criação das tabelas é relevante e deve ser observada.      - ok
+
+2. O que o projetista, que desenhou o diagrama E-R, poderia ter 
+observado para melhorar a padronização da nomenclatura de tabelas e 
+campos, considerando as particularidades de diferentes Sistemas 
+Gerenciadores de Bancos de Dados (SGBDs).
+
+R:
+O projetista não seguiu um padrão para especificar os atributos das tabelas, 
+uma solução seria deveria definir as chaves primarias ‘id_’ seguido do nome da tabela.
+Ex. ‘id_funcionario’, para chave primária na tabela funcionário.
+Da mesma forma para as chaves estrangeiras, o nome da tabela referenciada
+seguindo por ‘_id’.
+Ex. ‘funcionario_id’, é uma chave estrangeira na tabela ‘horario_trabalho_funcionario'
+que faz referência ao ‘id_funcionario’ na tabela funcionário.
