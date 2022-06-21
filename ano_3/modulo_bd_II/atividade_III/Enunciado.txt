@@ -1,0 +1,14 @@
+Prezado estudante,
+
+Leia atentamente ao que é solicitado nas questões (1) e (2) e responda conforme orientações ao
+ final do documento.
+
+Questão 1. A partir do diagrama E-R a seguir, escreva os comandos em linguagem de definição de 
+dados (Data Definition Language - DLL) para a criação do modelo físico do banco de dados utilizado 
+em um sistema de informações para o gerenciamento de turmas em uma escola.
+
+
+ 
+Questão 2. Escreva uma instrução em linguagem SQL que atenda ao seguinte enunciado: “listar o código 
+de matrícula do aluno, o nome do aluno, o identificador das turmas nas quais o aluno está matriculado 
+e o número de presenças que esse aluno tem em cada uma dessas turmas”.
