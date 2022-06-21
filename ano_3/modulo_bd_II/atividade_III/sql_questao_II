@@ -1,0 +1,10 @@
+	
+	/*Escreva uma instrução em linguagem SQL que atenda ao seguinte enunciado:*/
+	/*“listar o código de matrícula do aluno, o nome do aluno, o identificador */
+	/*das turmas nas quais o aluno está matriculado e o número de presenças que*/
+	/*esse aluno tem em cada uma dessas turmas”.*/
+	
+	SELECT cod_matricula AS Matricula, turma_id_turma AS Turma, 
+    nome as Nome, count(presente) as Presença from aluno AS a,
+    chamada AS c WHERE c.matricula_aluno_cod_matricula=a.cod_matricula 
+    AND presente=1 GROUP BY cod_matricula;
