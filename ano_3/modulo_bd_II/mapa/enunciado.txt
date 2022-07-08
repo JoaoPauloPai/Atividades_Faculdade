@@ -1,0 +1,32 @@
+“O software que atenderá a cooperativa de laudos será acessado por um conjunto de usuários, não necessariamente 
+profissionais de saúde. Pelo fato de esses usuários poderem estar localizados em qualquer parte do mundo, será 
+necessário conhecer o país, a divisão política dentro do país (estado, província) e a cidade na qual o usuário reside,
+ bem como o seu nome, o seu endereço e informações de contato (cada usuário poderá ter n contatos diferentes, de 
+ diferentes tipos – tais como endereços de e-mail, telefones, entre outros).
+Cada usuário poderá estar relacionado com n estabelecimentos de saúde; cada estabelecimento de saúde possui um nome de 
+registro, um nome fantasia, um número de registro e um endereço (incluindo país, divisão política e cidade), além de 
+informações de contato.
+Todo profissional de saúde registrado no sistema é, obrigatoriamente, um usuário do mesmo. Como forma de complemento de 
+cadastro, um profissional de saúde possui um número de registro profissional e uma ou mais especialidades médicas relacionadas
+ (como por exemplo, cardiologia e neurologia). Da mesma forma, um profissional de saúde está liberado para visualizar e manter 
+ dados de um ou mais estabelecimentos de saúde, desde que seu cadastro especifique essa liberação.
+Quando um exame ou procedimento é realizado por um dos estabelecimentos de saúde participantes, dados como a data, o paciente,
+ o tipo de exame executado (eletrocardiograma, tomografia computadorizada, entre outros) e observações são persistidas no BD
+  para avaliação posterior. Pelo fato de o mesmo paciente poder executar diferentes exames durante a sua vida, é necessário 
+  manter seus dados cadastrais atualizados (incluindo o nome, o sexo, o endereço completo e os seus dados de contato).
+Exames executados poderão ser laudados pelos profissionais de saúde registrados no sistema. Cada exame poderá ter até dois
+ laudos vinculados (chamados respectivamente de primeira e segunda opinião). Um laudo é composto por uma data e por uma observação, 
+ onde são registrados os achados e as orientações de tratamento (se for o caso).
+Diferentes tipos de exame possuem valores diferentes para a execução dos exames e para a redação dos laudos. Esses valores compõem 
+uma tabela de preços que possui uma vigência (com datas inicial e final de validade). Uma segunda opinião dada a respeito de um exame 
+é cobrada da mesma forma que uma primeira opinião”.
+
+A partir desta descrição, você deverá criar: 
+- Um diagrama E-R desenhado utilizando a ferramenta de preferência do aluno
+
+Requisitos:
+- a especificação de campos obrigatórios fica a critério do projetista do BD (aluno);
+- o esquema de BD deve incluir as tabelas de domínio necessárias para contemplar os dados acessórios a serem utilizados pelo sistema
+ (como por exemplo: especialidades médicas, tipos de contato, dentre outras);
+- as chaves primárias das tabelas, quando não puderem ser selecionadas a partir de chaves naturais, deverão ser criadas como 
+chaves substitutas de autoincremento.
